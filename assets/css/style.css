@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+    font-size: 1.7em;
+    margin-left: 10px
+}
+
+.logo img{
+    height: 45%;
+    border-radius: 50%;
+}
+
+.menu{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.menu a{
+    font-weight: 500;
+    color: rgb(79, 79, 80);
+}
+.cta{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta button{
+
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url("images/mesh2.jpeg");
+    border: none;
+    font-weight: 600;
+    /* box-shadow: 2px 2px 4px rgb(202, 202, 202); */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    font-family: "Poppins";
+}
+
+.hero-sec{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.hero-sec #bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    transform: scale(1);
+    transition: transform 0s ease-out, opacity 0.2s ease-out;
+}
+
+.hero-sec h1{
+    font-size: 8em;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-weight: 1000;
+    position: relative;
+    margin-top: 0;
+}
+ .hero-sec p{
+    width: 50%;
+    text-align: center;
+    color: rgb(192, 190, 190);
+    /* text-shadow: 2px 2px 4px rgb(165, 165, 165); */
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    
+ }
+
+ .hero-sec button{
+    /* width: 12%;
+    height: 40px; */
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    /* box-shadow: 2px 2px 4px rgb(0, 0, 0); */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-top: 0;
+    font-family: "Poppins";
+ }
+
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    
+}
+
+.show{
+    opacity: 1;
+
+}
+
+#about{
+    height: 100vh;
+    background-image: url('images/dark\ mesh2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#about h1{
+    font-family: "PT Serif", serif;
+    color: white;
+    font-size: 3em;
+    font-weight: 200;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.content{
+    width: 100%;
+    height: 80%;
+    margin-left: 100px;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    
+}
+
+.abt-image{
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.233);
+}
+
+.abt-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.glass h2{
+    font-size: 2em;
+    font-family: "PT serif";
+    color: white;
+    font-weight: 300;
+}
+
+.glass p{
+    font-size: 1em;
+    line-height: 25px;
+    color: rgb(175, 175, 175);
+    font-family: "Poppins";
+    font-weight: 200;
+}
+
+#projects{
+    height: 100vh;
+    background-image: url('images/dark\ mesh2\ inverted.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
