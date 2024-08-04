@@ -1,8 +1,10 @@
+@import url('./font-face.css');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Mukta";
+    font-family: "Gupter";
 }
 
 a {
