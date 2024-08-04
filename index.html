@@ -4,44 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber club</title>
+    <title>Cyber Club | Siliguri Government Polytechnic</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel.">
+    <meta name="keywords" content="Cyber Club, Siliguri Government Polytechnic, web development, app development, student club, programming, hackathons, coding competitions">
+    <meta name="author" content="SGP Cyber Club">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Cyber Club | Siliguri Government Polytechnic">
+    <meta property="og:description" content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel.">
+    <meta property="og:image" content="assets/icon/web/icon-512.png">
+    <meta property="og:url" content="https://www.sgpcyberclub.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="assets/icon/web/icon-512.png">
+    <meta name="twitter:title" content="Cyber Club | Siliguri Government Polytechnic">
+    <meta name="twitter:description" content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel.">
+    <meta name="twitter:image" content="assets/icon/web/icon-512.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icon/web/favicon.ico" type="image/x-icon">
+
+    <!-- CSS Links -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#d74051',
+                secondary: '#000',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .bg-secondary {
+            background-color: theme('colors.secondary');
+          }
+        }
+      </style>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="logo"><img src="assets/images/logo.png" alt="">
-                <h1>SGP Cyber club</h1>
+        <nav class="bg-secondary text-white">
+            <div class="logo"><img src="assets/icon/web/icon-512.png" alt="SGP Cyber Club Logo">
+                <h1>SGP Cyber Club</h1>
             </div>
             <div class="menu">
-                <a href="#">HOME</a>
-                <a href="#about">ABOUT</a>
-                <a href="#projects">PROJECTS</a>
-                <a href="#">CONTACT</a>
+                <a href="#" class="hover:text-primary hover:font-bold hover:border-b-2 border-primary transition-all duration-300">HOME</a>
+                <a href="#about" class="hover:text-primary hover:font-bold hover:border-b-2 border-primary transition-all duration-300">ABOUT</a>
+                <a href="#projects" class="hover:text-primary hover:font-bold hover:border-b-2 border-primary transition-all duration-300">PROJECTS</a>
+                <a href="#" class="hover:text-primary hover:font-bold hover:border-b-2 border-primary transition-all duration-300">CONTACT</a>
             </div>
             <div class="cta">
-                <button>Join Us →</button>
+                <a href="#" class="border-2 px-3 py-1 rounded-xl bg-primary text-white hover:bg-red-500 transition-all duration-300">Join Us →</a>
             </div>
         </nav>
     </header>
 
-
     <section class="hero-sec">
-        <img id="bg" src="assets/images/bg1.jpg" alt="">
+        <img id="bg" src="assets/images/bg1.jpg" alt="Background Image">
         <h1 id="text">CODE TOGETHER</h1>
         <p id="text2">This exclusive club, part of Siliguri Government Polytechnic, is dedicated to the CST department,
             promoting a positive mindset and continuous learning. Members will participate in weekly webinars focused on
             real-life projects, programming rules, and regulations.</p>
         <button id="text3">Join Us →</button>
-
     </section>
+
     <div id="about">
-        <h1>About us</h1>
+        <h1>About Us</h1>
         <div class="content">
             <div class="abt-image">
-                <img src="assets/images/college.jpg" alt="">
+                <img src="assets/images/college.jpg" alt="College Image">
             </div>
             <div class="glass">
                 <h2>Our Mission</h2>
@@ -52,7 +95,6 @@
                 <p>Welcome to the Cyber Club, where we are dedicated to enhancing the skills of students in web and app
                     development. Our club provides a collaborative environment for students to learn, grow, and
                     innovate.</p>
-
                 <h2>What We Do</h2>
                 <p><b>Skill Development:</b> Through workshops, seminars, and mentorship, we help students develop
                     essential skills in web and app development.
@@ -67,12 +109,9 @@
                 </p>
             </div>
         </div>
-
     </div>
 
-    <div id="projects">
-
-    </div>
+    <div id="projects"></div>
 
     <script src="assets/js/main.js"></script>
 </body>
