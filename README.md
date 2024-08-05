@@ -47,9 +47,9 @@ We welcome contributions from all members! Check out our Contribution Guidelines
 📞 Contact Us
 Got questions? Reach out to us:
 
-- **📧 Email:** info@sgpcyberclub.com
-- **🐦 Twitter:** @SGPCyberClub
-- **📘 Facebook:** SGP Cyber Club
+- **📧 Email:** clubcyber35@gmail.com
+<!-- - **🐦 Twitter:** @SGPCyberClub -->
+<!-- - **📘 Facebook:** SGP Cyber Club -->
 
 ### 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
