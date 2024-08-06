@@ -3,3 +3,8 @@
     src: url('../fonts/Gupter/Gupter-Regular.ttf');
     font-weight: 600;
 }
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto_Serif/static/NotoSerif-Regular.ttf');
+}
