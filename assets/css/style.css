@@ -46,7 +46,8 @@ a {
     font-family: "PT Serif", serif;
     font-weight: 500;
     font-size: 1.7em;
-    margin-left: 10px
+    margin-left: 10px;
+    color: black;
 }
 
 .logo img {
