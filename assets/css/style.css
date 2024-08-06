@@ -79,7 +79,7 @@ a {
     width: 50%;
     height: 40px;
     border-radius: 20px;
-    background-image: url("images/mesh2.jpeg");
+    background-image: url("../images/mesh2.jpeg");
     border: none;
     font-weight: 600;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -154,7 +154,7 @@ a {
 
 #about {
     height: 100vh;
-    background-image: url('images/dark\ mesh2.jpeg');
+    background-image: url('../images/dark\ mesh2.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,7 +227,7 @@ a {
 
 #projects {
     height: 100vh;
-    background-image: url('images/dark\ mesh2\ inverted.jpeg');
+    background-image: url('../images/dark\ mesh2\ inverted.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
