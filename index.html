@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyber Club | Siliguri Government Polytechnic</title>
 
-    <!-- Meta Tags for SEO -->
-    <meta name="description"
-      content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel." />
-    <meta name="keywords"
-      content="Cyber Club, Siliguri Government Polytechnic, web development, app development, student club, programming, hackathons, coding competitions" />
-    <meta name="author" content="SGP Cyber Club" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Club | Siliguri Government Polytechnic</title>
 
-    <!-- Open Graph Meta Tags for Social Media -->
-    <meta property="og:title" content="Cyber Club | Siliguri Government Polytechnic" />
-    <meta property="og:description"
-      content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel." />
-    <meta property="og:image" content="assets/icon/web/icon-512.png" />
-    <meta property="og:url" content="https://www.sgpcyberclub.com" />
-    <meta property="og:type" content="website" />
+  <!-- Meta Tags for SEO -->
+  <meta name="description"
+    content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel." />
+  <meta name="keywords"
+    content="Cyber Club, Siliguri Government Polytechnic, web development, app development, student club, programming, hackathons, coding competitions" />
+  <meta name="author" content="SGP Cyber Club" />
 
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="assets/icon/web/icon-512.png" />
-    <meta name="twitter:title" content="Cyber Club | Siliguri Government Polytechnic" />
-    <meta name="twitter:description"
-      content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel." />
-    <meta name="twitter:image" content="assets/icon/web/icon-512.png" />
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="Cyber Club | Siliguri Government Polytechnic" />
+  <meta property="og:description"
+    content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel." />
+  <meta property="og:image" content="assets/icon/web/icon-512.png" />
+  <meta property="og:url" content="https://www.sgpcyberclub.com" />
+  <meta property="og:type" content="website" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="assets/icon/web/favicon.ico" type="image/x-icon" />
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="assets/icon/web/icon-512.png" />
+  <meta name="twitter:title" content="Cyber Club | Siliguri Government Polytechnic" />
+  <meta name="twitter:description"
+    content="SGP Cyber Club is dedicated to empowering students with skills in web and app development through hands-on learning, projects, and events. Join us to innovate and excel." />
+  <meta name="twitter:image" content="assets/icon/web/icon-512.png" />
 
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="assets/icon/web/favicon.ico" type="image/x-icon" />
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                primary: "#d74051",
-                secondary: "#000",
-              },
-            },
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#d74051",
+            secondary: "#000",
           },
-        };
-    </script>
-    <style type="text/tailwindcss">
-      @layer utilities {
+        },
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
         .bg-secondary {
           background-color: theme("colors.secondary");
         }
@@ -62,125 +63,159 @@
         }
       }
     </style>
-    </head>
+</head>
 
-  <body>
-    <header class="sticky top-0 left-0 w-full text-white z-50">
-      <nav class="navbar text-white">
-        <div class="logo">
-          <img src="assets/icon/web/icon-512.png" alt="SGP Cyber Club Logo" />
-          <h1>SGP Cyber Club</h1>
+<body>
+  <header class="sticky top-0 left-0 w-full text-white z-50">
+    <nav class="navbar text-white">
+      <div class="logo">
+        <img src="assets/icon/web/icon-512.png" alt="SGP Cyber Club Logo" />
+        <h1>SGP Cyber Club</h1>
+      </div>
+      <div class="menu">
+        <a href="#" class="anchor-tag">HOME</a>
+        <a href="#about" class="anchor-tag">ABOUT</a>
+        <a href="#opportunities" class="anchor-tag">OPPORTUNITY</a>
+        <a href="#contact" class="anchor-tag">CONTACT</a>
+      </div>
+      <div class="cta">
+        <a href="#"
+          class="border-2 px-3 py-1 rounded-xl bg-primary text-white hover:bg-red-500 transition-all duration-300">Join
+          Us →</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-sec">
+    <img id="bg" src="assets/images/bg1.jpg" alt="Background Image" />
+    <h1 id="text">CODE TOGETHER</h1>
+    <p id="text2">
+      This exclusive club, part of Siliguri Government Polytechnic, is
+      dedicated to the CST department, promoting a positive mindset and
+      continuous learning. Members will participate in weekly webinars focused
+      on real-life projects, programming rules, and regulations.
+    </p>
+    <button id="text3">Join Us →</button>
+  </section>
+
+  <div id="about">
+    <h1>About Us</h1>
+    <div class="content">
+      <div class="abt-image">
+        <img src="assets/images/college.jpg" alt="College Image" />
+      </div>
+      <div class="glass">
+        <h2>Our Mission</h2>
+        <p>
+          Our mission is to empower students by providing the resources,
+          support, and opportunities they need to excel in web and app
+          development. We believe in hands-on learning and real-world
+          application, ensuring our members are well-prepared for the future.
+        </p>
+        <h2>Empowering Future Innovators</h2>
+        <p>
+          Welcome to the Cyber Club, where we are dedicated to enhancing the
+          skills of students in web and app development. Our club provides a
+          collaborative environment for students to learn, grow, and innovate.
+        </p>
+        <h2>What We Do</h2>
+        <p>
+          <b>Skill Development:</b> Through workshops, seminars, and
+          mentorship, we help students develop essential skills in web and app
+          development.
+        </p>
+        <p>
+          <b>Project-Based Learning:</b> Our members work on a variety of
+          projects, gaining practical experience and building impressive
+          portfolios.
+        </p>
+        <p>
+          <b>Competitions and Events:</b> We organize and participate in
+          hackathons, coding competitions, and tech events to challenge our
+          members and showcase their talents.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="opportunities">
+    <h1 class="opportunities-h1">Our Opportunities</h1>
+    <p class="opportunities-p">
+      We offer a range of opportunities designed to help you gain practical
+      experience through real-world projects, which can significantly enhance
+      your resume and lead to the best job opportunities.
+    </p>
+
+    <div class="card-sec">
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/images/project.jpg" alt="" />
         </div>
-        <div class="menu">
-          <a href="#" class="anchor-tag">HOME</a>
-          <a href="#about" class="anchor-tag">ABOUT</a>
-          <a href="#opportunities" class="anchor-tag">OPPORTUNITY</a>
-          <a href="#" class="anchor-tag">CONTACT</a>
-          </div>
-          <div class="cta">
-            <a href="#"
-            class="border-2 px-3 py-1 rounded-xl bg-primary text-white hover:bg-red-500 transition-all duration-300">Join Us →</a>
-          </div>
-          </nav>
-    </header>
+        <h1>Real-World Projects</h1>
+        <p>
+          Participate in hands-on projects that solve real problems. Gain
+          practical experience that sets you apart in the job market.
+        </p>
+      </div>
 
-    <section class="hero-sec">
-      <img id="bg" src="assets/images/bg1.jpg" alt="Background Image" />
-      <h1 id="text">CODE TOGETHER</h1>
-      <p id="text2">
-        This exclusive club, part of Siliguri Government Polytechnic, is
-        dedicated to the CST department, promoting a positive mindset and
-        continuous learning. Members will participate in weekly webinars focused
-        on real-life projects, programming rules, and regulations.
-      </p>
-      <button id="text3">Join Us →</button>
-    </section>
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/images/resume.jpg" alt="" />
+        </div>
+        <h1>Build Your Resume</h1>
+        <p>
+          Work on projects that you can showcase in your portfolio. Highlight
+          your skills and experience to potential employers.
+        </p>
+      </div>
 
-    <div id="about">
-      <h1>About Us</h1>
-      <div class="content">
-        <div class="abt-image">
-          <img src="assets/images/college.jpg" alt="College Image" />
-          </div>
-          <div class="glass">
-            <h2>Our Mission</h2>
-          <p>
-            Our mission is to empower students by providing the resources,
-            support, and opportunities they need to excel in web and app
-            development. We believe in hands-on learning and real-world
-            application, ensuring our members are well-prepared for the future.
-          </p>
-          <h2>Empowering Future Innovators</h2>
-          <p>
-            Welcome to the Cyber Club, where we are dedicated to enhancing the
-            skills of students in web and app development. Our club provides a
-            collaborative environment for students to learn, grow, and innovate.
-          </p>
-          <h2>What We Do</h2>
-          <p>
-            <b>Skill Development:</b> Through workshops, seminars, and
-            mentorship, we help students develop essential skills in web and app
-            development.
-          </p>
-          <p>
-            <b>Project-Based Learning:</b> Our members work on a variety of
-            projects, gaining practical experience and building impressive
-            portfolios.
-            </p>
-            <p>
-            <b>Competitions and Events:</b> We organize and participate in
-            hackathons, coding competitions, and tech events to challenge our
-            members and showcase their talents.
-            </p>
-            </div>
-            </div>
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/images/job.jpg" alt="" />
+        </div>
+        <h1>Job Opportunities</h1>
+        <p>
+          Leverage your project experience to secure top job positions. Our
+          club’s network and partnerships help you connect with leading
+          companies.
+        </p>
+      </div>
     </div>
+  </div>
 
-    <div id="opportunities">
-      <h1 class="opportunities-h1">Our Opportunities</h1>
-      <p class="opportunities-p">
-        We offer a range of opportunities designed to help you gain practical
-        experience through real-world projects, which can significantly enhance
-        your resume and lead to the best job opportunities.
-      </p>
 
-      <div class="card-sec">
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/project.jpg" alt="" />
-          </div>
-          <h1>Real-World Projects</h1>
-          <p>
-            Participate in hands-on projects that solve real problems. Gain
-            practical experience that sets you apart in the job market.
-          </p>
-          </div>
+  <div id="contact">
+    <h1>Get in Touch</h1>
+    <div class="contact-box">
 
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/resume.jpg" alt="" />
-          </div>
-          <h1>Build Your Resume</h1>
-          <p>
-            Work on projects that you can showcase in your portfolio. Highlight
-            your skills and experience to potential employers.
-          </p>
-          </div>
+      <form action="" method="post">
+        <div class="name-box">
+          <h3>Name</h3>
+          <input type="text" name="name" class="input">
+        </div>
 
-        <div class="card">
-          <div class="card-image">
-            <img src="assets/images/job.jpg" alt="" />
-          </div>
-          <h1>Job Opportunities</h1>
-          <p>
-            Leverage your project experience to secure top job positions. Our
-            club’s network and partnerships help you connect with leading
-            companies.
-          </p>
-          </div>
-          </div>
+        <div class="name-box">
+          <h3>E-mail</h3>
+          <input type="email" name="email" class="input">
+        </div>
+
+        <div class="name-box">
+          <h3>Subject</h3>
+          <input type="text" name="subject" class="input">
+        </div>
+
+        <div class="msg-box">
+          <h3>Message</h3>
+          <input type="text" name="message" class="input">
+        </div>
+
+      <button type="submit" class="submit">Submit</button>
+      
+      </form>
     </div>
+  </div>
 
-    <script src="assets/js/main.js"></script>
-  </body>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
