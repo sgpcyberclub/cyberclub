@@ -13,3 +13,8 @@
     font-family: 'Poppins';
     src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'PT serif';
+    src: url('../fonts/PT_serif/PT_Serif-Web-Regular.ttf');
+}
