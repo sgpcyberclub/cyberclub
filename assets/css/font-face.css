@@ -8,3 +8,8 @@
     font-family: 'Noto Serif';
     src: url('../fonts/Noto_Serif/static/NotoSerif-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
